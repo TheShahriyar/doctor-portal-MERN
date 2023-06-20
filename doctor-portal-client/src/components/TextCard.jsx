@@ -5,9 +5,9 @@ import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 
 const TextCard = ({subtitle, title, children, link, icon}) => {
   return (
-    <div className='bg-primary text-white p-8 space-y-4 rounded-md group relative'>
+    <div className='bg-primary text-white p-4 lg:p-8 space-y-4 rounded-md group relative'>
       <div className='text-sm'>{subtitle}</div>
-      <h3 className='font-bold text-xl'>{title}</h3>
+      <h3 className='font-semibold text-xl'>{title}</h3>
       {children}
       <Link to={link} className='flex items-center'>
         <span className='mr-2'>Learn More</span>

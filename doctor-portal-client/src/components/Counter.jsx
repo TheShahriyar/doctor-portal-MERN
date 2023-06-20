@@ -8,7 +8,7 @@ const Counter = ({number, text, icon}) => {
         <FontAwesomeIcon icon={icon} />
       </div>
       <div>
-        <h3 className='text-3xl font-bold'>{number}</h3>
+        <h3 className='text-3xl font-semibold'>{number}</h3>
         <p>{text}</p>
       </div>
     </div>

@@ -5,9 +5,9 @@ const Footer = () => {
   let year = new Date().getFullYear();
   return (
     <>
-      <section className='py-20 bg-primary bg-opacity-95'>
+      <section className='py-12 sm:py-20 bg-primary bg-opacity-95'>
         <div className="container">
-          <div className='grid grid-cols-4 gap-x-16'>
+          <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-16'>
             <div>
               <div className='footer-title'>
                 <h3 className='font-bold text-white text-xl mb-4'>About Us</h3>

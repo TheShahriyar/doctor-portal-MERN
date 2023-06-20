@@ -17,8 +17,8 @@ const Homepage = () => {
     <>
       <BigBanner />
       {/* Start 3 card Section */}
-      <section className='py-20'>
-        <div className="container grid grid-cols-3 gap-x-8">
+      <section className='py-12 sm:py-20'>
+        <div className="container grid sm:grid-cols-3 gap-8">
           <TextCard subtitle="Lorem Amet" title="Emergency Cases" link="/about" icon={faTruckMedical}>
             <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
           </TextCard>
@@ -33,13 +33,13 @@ const Homepage = () => {
       {/* End 3 Card Section */}
 
       {/* Start Feature Section */}
-      <section className='pb-20'>
+      <section className='pb-12 sm:pb-20'>
         <div className="container">
           <SectionTitle
             title="We Are Always Ready To Help You & Your Family"
             desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
           />
-          <div className='grid grid-cols-3 gap-x-8'>
+          <div className='grid sm:grid-cols-3 gap-8'>
             <Feature
               icon={faAmbulance}
               title="Emergency Help"
@@ -62,11 +62,11 @@ const Homepage = () => {
 
       {/* Start Counter Section */}
       <section 
-        className='relative py-24 bg-primary bg-cover bg-opacity-25 before:absolute before:bg-primary before:opacity-80 before:top-0 before:left-0 before:w-full before:h-full' 
+        className='relative py-20 lg:py-24 bg-primary bg-cover bg-opacity-25 before:absolute before:bg-primary before:opacity-80 before:top-0 before:left-0 before:w-full before:h-full' 
         style={{background: `url(${FunBG})`}}
       >
         <div className="container relative">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-y-8 lg:gap-y-0">
             <Counter number="7678" text="Hospital Room" icon={faHome} />
             <Counter number="767" text="Specilized Doctor" icon={faUser} />
             <Counter number="86889" text="Happy Patient" icon={faFaceSmile} />
@@ -78,14 +78,14 @@ const Homepage = () => {
 
 
       {/* Start About Section */}
-      <section className='py-20'>
+      <section className='py-12 sm:py-20'>
         <div className="container">
           <SectionTitle 
             title="We Offer Different Services To Improve Your Health"
             desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
           />
-          <div className='flex gap-x-20'>
-            <div className='w-1/2'>
+          <div className='flex gap-y-8 lg:gap-x-20 flex-col-reverse lg:flex-row'>
+            <div className='lg:w-1/2'>
               <p className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra antege vel est lobortis, a commodo magna rhoncus. In quis nisi non emet quam pharetra commodo.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra antege vel est lobortis, a commodo magna rhoncus. In quis nisi non emet quam pharetra commodo.</p>
               <p className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra antege vel est lobortis, a commodo magna rhoncus. In quis nisi non emet quam pharetra commodo.
@@ -93,7 +93,7 @@ const Homepage = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra antege vel est lobortis, a commodo magna rhoncus. In quis nisi non emet quam pharetra commodo.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra antege vel est lobortis, a commodo magna rhoncus. In quis nisi non emet quam pharetra commodo.</p>
             </div>
-            <div className='w-1/2'>
+            <div className='lg:w-1/2'>
               <img src={VideoBG} alt='About image' />
             </div>
           </div>
@@ -104,15 +104,15 @@ const Homepage = () => {
 
       {/* Start Call To Action Section */}
       <section 
-        className='relative py-24 bg-primary bg-cover bg-opacity-25 before:absolute before:bg-primary before:opacity-80 before:top-0 before:left-0 before:w-full before:h-full' 
+        className='relative py-12 sm:py-20 lg:py-24 bg-primary bg-cover bg-opacity-25 before:absolute before:bg-primary before:opacity-80 before:top-0 before:left-0 before:w-full before:h-full' 
         style={{background: `url(${CallBG})`}}
       >
         <div className="container relative">
-          <div className='text-center text-white w-2/5 mx-auto space-y-6'>
-            <h2 className='font-bold text-4xl'>Do you need Emergency Medical Care? Call @ 1234 56789</h2>
+          <div className='text-center text-white sm:w-4/5 lg:w-2/5 mx-auto space-y-6'>
+            <h2 className='font-semibold text-3xl sm:text-4xl'>Do you need Emergency Medical Care? Call @ 1234 56789</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor dictum turpis nec gravida.</p>
-            <div className='space-x-4 pt-6'>
-              <Link to="/appointment" className='border border-white py-4 px-6 rounded-md'>Appointment</Link>
+            <div className='pt-6 flex justify-center flex-col sm:flex-row'>
+              <Link to="/appointment" className='border border-white py-4 px-6 rounded-md sm:mr-4 mb-4 sm:mb-0'>Appointment</Link>
               <Link to="/contact" className='bg-slate-800 border border-slate-800 py-4 px-6 rounded-md'>Contact Us</Link>
             </div>
           </div>
@@ -121,14 +121,14 @@ const Homepage = () => {
       {/* End Call To Action Section */}
 
       {/* Start Service Section */}
-      <section className='py-20'>
+      <section className='py-12 sm:py-20'>
         <div className="container">
           <SectionTitle 
             title="We Offer Different Services To Improve Your Health"
             desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
           />
 
-          <div className='grid grid-cols-3 gap-20'>
+          <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-20'>
             <Service 
               icon={faClipboardList} 
               title="General Treatment"

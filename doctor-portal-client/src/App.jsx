@@ -14,7 +14,9 @@ function App() {
 
   return (
     <>
-      <TopHeader />
+      <div className='hidden sm:block'>
+        <TopHeader />
+      </div>
       <Header/>
       <Routes>
         <Route path="/" element={<Homepage />}></Route>

@@ -8,7 +8,7 @@ const Service = ({title, desc, icon}) => {
         <FontAwesomeIcon icon={icon} />
       </div>
       <div>
-        <h3 className='font-bold text-2xl mb-2'>{title}</h3>
+        <h3 className='font-semibold text-xl mb-2'>{title}</h3>
         <p>{desc}</p>
       </div>
     </div>
