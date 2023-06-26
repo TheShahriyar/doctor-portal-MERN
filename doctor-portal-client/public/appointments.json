@@ -1,0 +1,70 @@
+[
+  {
+    "_id": 1,
+    "name": "Teeth Orthodontics",
+    "slots": [
+      "08.00 AM - 08:30 AM",
+      "08.31 AM - 09:00 AM"
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "Filling",
+    "slots": [
+      "09.31 AM - 10:00 AM",
+      "10.01 AM - 10:30 AM"
+    ]
+  },
+  {
+    "_id": 3,
+    "name": "Cosmetic Surgery",
+    "slots": [
+      "08.00 AM - 08:30 AM",
+      "08.31 AM - 09:00 AM",
+      "10.01 AM - 10:30 AM"
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "Root Canel",
+    "slots": [
+      "09.01 AM - 09:30 AM",
+      "09.31 AM - 10:00 AM"
+    ]
+  },
+  {
+    "_id": 5,
+    "name": "Teeth Cleaning",
+    "slots": [
+      "09.31 AM - 10:00 AM",
+      "10.01 AM - 10:30 AM"
+    ]
+  },
+  {
+    "_id": 6,
+    "name": "Consulting",
+    "slots": []
+  },
+  {
+    "_id": 7,
+    "name": "Teeth Surgery",
+    "slots": [
+      "08.00 AM - 08:30 AM",
+      "08.31 AM - 09:00 AM",
+      "09.01 AM - 09:30 AM",
+      "09.31 AM - 10:00 AM",
+      "10.01 AM - 10:30 AM"
+    ]
+  },
+  {
+    "_id": 8,
+    "name": "Heart Surgery",
+    "slots": [
+      "08.00 AM - 08:30 AM",
+      "08.31 AM - 09:00 AM",
+      "09.01 AM - 09:30 AM",
+      "09.31 AM - 10:00 AM",
+      "10.01 AM - 10:30 AM"
+    ]
+  }
+]

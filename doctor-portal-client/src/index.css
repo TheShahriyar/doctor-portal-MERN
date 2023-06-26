@@ -10,3 +10,6 @@ body {
 .container {
   @apply mx-auto px-5;
 }
+.rdp-day_selected, .rdp-day_selected:focus-visible, .rdp-day_selected:hover {
+  @apply !bg-primary;
+}

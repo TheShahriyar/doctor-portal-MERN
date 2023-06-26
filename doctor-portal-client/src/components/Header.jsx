@@ -19,11 +19,11 @@ const Header = () => {
           <div>
             <Link to="/" className='font-bold text-2xl'>Doctor</Link>
           </div>
-          <div className=''>
+          <div className='ml-auto'>
             <div className='lg:hidden cursor-pointer text-xl' onClick={mobileNav}>
               <FontAwesomeIcon icon={faBars} />
             </div>
-            <div className={`${navOpen ? "-translate-x-full": 'translate-x-0'} flex items-center flex-col lg:flex-row absolute top-0 left-0 z-10 lg:relative bg-white w-11/12 h-full transition duration-300`}>
+            <div className={`${navOpen ? "-translate-x-full lg:translate-x-0": 'translate-x-0'} flex items-center flex-col lg:flex-row absolute top-0 left-0 z-10 lg:relative bg-white w-11/12 h-full transition duration-300`}>
               <div onClick={hideMobileMenu} className='lg:hidden mb-10 absolute top-4 right-4 text-xl cursor-pointer'>
                 <FontAwesomeIcon icon={faClose} />
               </div>
